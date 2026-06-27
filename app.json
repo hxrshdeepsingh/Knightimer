@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Knightimer",
+    "slug": "knightimer",
+    "version": "01.13.2026",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "knightimer",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
+    "newArchEnabled": true,
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundImage": "./assets/images/icon.png",
+        "monochromeImage": "./assets/images/icon.png"
+      },
+      "buildArchitectures": [
+        "arm64-v8a"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.hxrshdeep.knightimer"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ff0000",
+          "dark": {
+            "backgroundColor": "#ff0000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fc3ef1bd-5d89-4adc-a0be-97394716557f"
+      }
+    }
+  }
+}
